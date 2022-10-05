@@ -1,0 +1,72 @@
+/*- Nav animation -*/
+.nav-icon {
+	width: 30px;
+  }
+  
+  .nav-icon:after, 
+  .nav-icon:before, 
+  .nav-icon div {
+	background-color: #fff;
+	border-radius: 3px;
+	content: '';
+	display: block;
+	height: 4px;
+	margin: 5px 0;
+	transition: all .2s ease-in-out;
+  }
+
+  .nav-icon:hover:before {
+	transform: translateY(9px) rotate(135deg);
+  }
+  
+  .nav-icon:hover:after {
+	transform: translateY(-9px) rotate(-135deg);
+  }
+  
+  .nav-icon:hover div {
+	transform: scale(0);
+  }
+
+/* Nav Styles */
+nav  {
+    display: none;
+    margin:0 auto;
+    width: 100%;
+    background-color:#483D30;
+    font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.show nav {
+    display: block;
+}
+
+
+nav ul li{
+  padding: 0 auto;
+  margin: 0 auto;
+	list-style: none;
+	background-color: transparent;
+  color:rgb(201, 201, 201);
+  border-style: 1px dotted  #8a8a8aa1;
+  font-size:1.2em;
+  
+}
+
+nav a {
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 42px;
+    font-size: 1.2em;
+    border-top: 1px dotted #e6e6e67e;
+    padding:0 30px 0 30px;
+    margin:0;
+  }
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+    background-color: rgba(255, 255, 255, 0.418);
+}

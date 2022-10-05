@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Cafe</title>
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+<body>
+	<div class="wrapper" id="top">
+        <div class= "top-section">
+			<header>
+				<a href="index.html"><img src="images/cafe-logo.png"></a>
+				<a href="#menu" class="hamburger">
+					<div class="nav-icon">
+						<div></div>
+					  </div>
+                    </a>	
+                    <nav id="menu">
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="adoption.html">Adoption</a></li>
+                            <li><a href="reservations.html">Reservation</a></li>
+                        </ul>
+                    </nav>				
+            </header>  
+            <div class="scroll">
+            <p><a href="#main">&or;</a></p>
+        </div>
+        </div> <!--end of top-section-->
+        <div class="banner-reservations">
+            <img class="image" src="images/hero-reservations.jpg" alt="hero-reservation">
+        </div>
+        
+           <!-- About Container -->
+           <section class="about-container" id="about">
+            <h1>Reservation</h1>
+            <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam fugiat nobis velit magnam deserunt, officia, commodi adipisci dolores sequi, aliquid accusantium atque ex voluptatem libero. Dolore cupiditate optio autem molestias.</P>
+            <h4>Opening hours:everyday from 6am to 5pm.</h4>
+            <h4>Address:Unique New York</h4>
+        </section>
+     
+        <main class="main" id="main"> 
+            <section class="reservations-group">
+            <section class="form-group" id="form-group"> <!--appointment form-->
+                <form>
+                    <h2>Make A Reservation</h2>
+                    <fieldset>
+                        <legend>Your Info</legend>
+                <div class="form-group-info-group">
+                            <div class="form-row-first-name">
+                                <label for="fn">First Name</label>
+                                <input type="text" id="fn" name="fn">
+                            </div> <!--end first name form row-->
+                            <div class="form-row-last-name">
+                                <label for="ln">Last Name</label>
+                                <input type="text" id="ln" name="ln">
+                            </div> <!--end last name form row-->
+                            <div class="form-row-email">
+                                <label for="fn">Email Address</label>
+                                <input type="text" id="email" name="email">
+                            </div> <!--end email form row-->
+                        </div><!--end form group-->
+                    </fieldset>
+
+                    
+                    <fieldset>
+         <div class="form-group date-group">
+                        <h3>Choose a Date</h3>
+                        <legend>Reservation Date &amp; Time</legend>
+                        <div class="form-row month">
+                            <label for="month">Month: </label>
+                            <select name="month" id="month">
+                                 <option value="January">January</option>
+                                 <option value="February">February</option>
+                                 <option value="March">March</option>
+                                 <option value="April">April</option>
+                                 <option value="May">May</option>
+                                 <option value="June">June</option>
+                                 <option value="July">July</option>
+                                 <option value="August">August</option>
+                                 <option value="September">September</option>
+                                 <option value="October">October</option>
+                                 <option value="November">November</option>
+                                 <option value="December">December</option>
+                            </select>  
+                        </div><!-- end form-row -->
+                        <div class="form-row day">
+                            <label for="day">Day: </label>
+                            <select name="day" id="day">
+                                 <option value="1">1</option>
+                                 <option value="2">2</option>
+                                 <option value="3">3</option>
+                                 <option value="4">4</option>
+                                 <option value="5">5</option>
+                                 <option value="6">6</option>
+                                 <option value="7">7</option>
+                                 <option value="8">8</option>
+                                 <option value="9">9</option>
+                                 <option value="10">10</option>
+                                 <option value="11">11</option>
+                                 <option value="12">12</option>
+                                 <option value="13">13</option>
+                                 <option value="14">14</option>
+                                 <option value="15">15</option>
+                                 <option value="16">16</option>
+                                 <option value="17">17</option>
+                                 <option value="18">18</option>
+                                 <option value="19">19</option>
+                                 <option value="20">20</option>
+                                 <option value="21">21</option>
+                                 <option value="22">22</option>
+                                 <option value="23">23</option>
+                                 <option value="24">24</option>
+                                 <option value="25">25</option>
+                                 <option value="26">26</option>
+                                 <option value="27">27</option>
+                                 <option value="28">28</option>
+                                 <option value="29">29</option>
+                                 <option value="30">30</option>
+                                 <option value="31">31</option>
+                            </select>
+                        </div><!-- end form-row -->
+                        <div class="form-row year">
+                            <label for="year">Year: </label>
+                            <select name="year" id="year">
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group time-group">
+                         <h3>Select a Time</h3>
+                        <div class="form-row hour">
+                            <label for="hour">Hour: </label>
+                            <select name="hour" id="hour">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                        </div><!-- end form-row -->
+                        <div class="form-row minute">
+                            <label for="minute">Minute: </label>
+                            <select name="minute" id="minute">
+                                <option value="0">:00</option>
+                                <option value="15">:15</option>
+                                <option value="30">:30</option>
+                                <option value="45">:45</option>
+                            </select>
+                        </div><!-- end form-row -->
+                        <div class="form-row am-pm">
+                            <label for="am-pm">AM or PM: </label>
+                            <select name="am-pm" id="am-pm">
+                                <option value="AM">AM</option>
+                                <option value="PM">PM</option>
+                            </select>
+                        </div>
+                    </div><!-- end form-group -->
+                    </fieldset>
+                    
+                    <div class="form-group-submit-group">
+                        <div class="form-row-submit">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </div>
+                </form>
+            </section>    
+            
+            <section class="map" id="map" ><!--location info-->
+                <h2>Where to Find Us</h2>
+                <div class="loc-info">
+                    <h3>Cafe Cat</h3>
+                    <p>3700 Willingdon Ave.<br>Burnaby, British Columbia<br>Canada V5G 3H2</p>
+                    <h4>Phone</h4>
+                    <p>604-434-5734</p>
+                    <h4>General Inquiries</h4>
+                    <p>info@cafecat.com</p>
+                    <h4>Reservations</h4>
+                    <p>reservations@cafecat.com</p>
+                </div>
+                <figure class="loc-map"><!--need to add map img-->
+                    <img src="images/map.jpg" alt="map">
+                </figure>
+            </section>
+        </section>
+        </main> <!--end of main-->
+        
+        <footer > 
+            <div class="footer-group" > 
+                    <section class="footer-01" >
+                            <article class="footer-nav" id="footer-nav">
+                                <ul>
+                                    <li><a href="about.html">About</a</li>
+                                    <li><a href="menu.html">Menu</a></li>
+                                    <li><a href="adoption.html">Adoption</a></li>
+                                    <li><a href="reservations.html">Reservation</a></li>
+                                </ul>
+                            </article>	
+                    </section>
+                    <section class="footer-02" >
+                            <article class="social" id="social">
+                                    <ul>
+                                        <li><a href="#facebook"><img src="images/facebook.png"></a></li>
+                                        <li><a href="#twitter"><img src="images/tweeter.png"></a></li>
+                                        <li><a href="#instagram"><img src="images/instagram.png"></a></li>
+                                    </ul>
+                            </article>	
+                    </section>
+                    <section class="footer-03" >
+                        <h3>Subscribe to our Newsletter</h3>
+                                <form class="e-mail" id="email">
+                                    <input class="email" type="email" id="email" name="email">
+                                    <input class="submit" type="submit">
+                                  </form>
+                    </section>
+                    <section class="footer-04" >
+                         <h3>Cafe Cat</h3>
+                         <article class="copy" id="copy">
+                            <p>Copyright by Cafe Cat Team5</p>
+                            </article>	
+                    </section>
+                </div>
+            </footer> <!--end of footer-->
+    
+</body>
+<script src="js/script.js"></script>
+</html>

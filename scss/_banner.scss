@@ -1,0 +1,102 @@
+
+    .banner img, .banner-about img, .banner-menu img, 
+    .banner-adoption img,.banner-reservations img{
+        position: relative;
+        max-width:1200px;
+        width:100% auto;
+        height: 100vh;
+        border-radius: 0;
+        top:-100px;
+        z-index:-1;
+        margin:0;
+        padding:0 auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    /*--
+    .banner:after {
+        content: "";
+        display: block;
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/hero-main.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-color: rgba(0, 0, 0, 0.1);
+        background-blend-mode: darken;
+    } 
+    .banner-about:after {
+        content: "";
+        display: block;
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/hero-about.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-color: rgba(0, 0, 0, 0.1);
+        background-blend-mode: darken;
+    }
+
+    .banner-menu:after {
+        content: "";
+        display: block;
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/hero-menu.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-color: rgba(0, 0, 0, 0.1);
+        background-blend-mode: darken;
+    }
+
+    .banner-adoption:after {
+        content: "";
+        display: block;
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/hero-adoption.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-color: rgba(0, 0, 0, 0.1);
+        background-blend-mode: darken;
+    }
+
+    .banner-reservations:after {
+        content: "";
+        display: block;
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/hero-reservations.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-color: rgba(0, 0, 0, 0.1);
+        background-blend-mode: darken;
+    }--*/
+

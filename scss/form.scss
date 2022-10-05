@@ -1,0 +1,121 @@
+/* Form Styles */
+
+.reservations-group{
+    position:relative;
+    max-width:1200px;
+    width:90% auto;
+    justify-content: center;
+    text-align: justify;
+    padding:10px 50px 20px 50px;
+}
+
+.reservations-group h2, h3{
+    position:relative;
+    justify-content: center;
+    text-align:center;
+    padding-top:20px;
+    margin-top:0;
+}
+
+.form-group{
+    position:relative;
+    max-width:1200px;
+    width:80% auto;
+    justify-content: center;
+}
+
+legend{
+    justify-content: center;
+    font-size:1.4em;
+    text-align:center;
+    padding-bottom:10px;
+}
+
+.form-group-info-group input{
+    max-width:1200px;
+    width:100%;
+    margin:10px;
+    padding:20px auto;
+    border-bottom: 2px dotted #483D30;
+    justify-content: center;
+    text-align: left;  
+    line-height:1em;
+}
+
+.form-group-info-group label{
+    padding:20px auto;
+    justify-content: center;
+    text-align: left;  
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1 /span 3;
+}
+
+.form-row-submit input {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1 /span 3;
+    background-color: #786a58;
+    color:white;
+    padding:14px;
+    width:200px;
+    font-size:1em;
+    text-align:center;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin:20px 50% 20px 30%;
+}
+
+.form-row {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.form-date select, .form-row{ 
+   border:2px;
+   border-bottom: 2px dotted #483D30;
+   height:40px;
+   padding:10px;
+   margin:0;
+}
+
+
+/* map style */
+
+.map {
+    display:grid;
+    justify-content: center;
+    text-align:center;
+    margin:0;
+}
+
+.map h2 {
+    justify-content: center;
+    text-align:center;
+    line-height: 1.8em;
+}
+.log-info h3, h4{
+    z-index:999;
+    justify-content: center;
+    text-align:center;
+    font-size:1.2em;
+    line-height: 0.8em;
+    color:#e8bd89;
+}
+
+.loc-info{
+    background-color: #9d8970;
+    color:white;
+    padding:10px;
+}
+.loc-map{
+    width:100%;
+    height:600px;
+    background-image:url(../images/map.jpg);
+    background-position: center;
+    height:auto;
+    border-radius: 0;
+    overflow: hidden;
+}

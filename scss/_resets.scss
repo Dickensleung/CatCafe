@@ -1,0 +1,119 @@
+//Resets
+
+//Box Sizing Reset 
+
+ /* CSS reset with box-sizing fix */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, footer,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+ 	padding: 0;
+ 	border: 0;
+  }
+  
+  html {
+      scroll-behavior: smooth;
+    }
+
+	body {
+	line-height: 1;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	background-color: black;
+	}
+	ol, ul {
+	list-style: none;
+	}
+	blockquote, q {
+	quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+	content: '';
+	content: none;
+	}
+	table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+header,
+main,
+footer {
+	max-width: 100%;
+	margin: 0 auto;
+	padding:0 auto;
+}
+
+h1, h2, h3, h4, h5, nav a {
+    margin:10px 0 10px 0 ;
+	font-family: 'Playfair Display', serif;
+	font-size: 2em;
+}
+
+h2 a{
+	text-decoration: none;
+	color:black;
+}
+h2 a:hover,
+h2 a:focus,
+h2 a:active {
+	background-color: rgba(85, 83, 83, 0.17);
+}
+
+h5 {
+	font-family: 'Playfair Display', serif;
+	font-size: 1em;
+	text-decoration: underline;
+	line-height: 1.2;
+}
+
+h5 a {
+	font-family: 'Playfair Display', serif;
+	font-size: 0.5em;
+	color:black;
+}
+
+h5 a:hover,
+h5 a:focus,
+h5 a:active {
+	background-color: rgba(52, 144, 180, 0.17);
+}
+
+p{
+    margin:10px 0 10px 0 ;
+	line-height: 1.4;
+}

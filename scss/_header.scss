@@ -1,0 +1,78 @@
+
+/* Header Styles */
+.top-section {
+  color:rgb(201, 201, 201);
+  margin-bottom:0;
+  }
+  
+  header {
+    background-color: #483D30;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; 
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .image{
+    width: 100%;
+  }
+  
+  header img{
+    border-radius:0px;
+  }
+  header a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  header h1 {
+    margin: 0 auto;
+    line-height: 60px;
+    margin-left: 10px;
+  }
+  
+  .hamburger {
+    font-size: 2em;
+    margin-right: 10px;
+  }
+  
+  /* Hides the text menu */
+   .hamburger-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+  }
+
+  .top-section img{
+    width:130px;
+    height:30px;
+    z-index:999;
+  }
+
+  .scroll{
+    position: absolute;
+    left:50%;
+    top:90%;
+    font-size:2em;
+    color:white;
+    z-index:999;
+  }
+
+  .scroll a{
+    color:white;
+    text-decoration: none;
+    font-size:1.4em;
+}
+  .scroll a:hover,
+  .scroll a:focus,
+  .scroll a:active {
+    color:white;
+}
